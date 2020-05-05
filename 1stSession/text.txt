@@ -1,0 +1,22 @@
+data -> server 
+packets 
+url : wwww.google.com
+local address IP: 192.168.1.5
+public @ IP: 212.103.50.134
+Data: userName , password ..ect
+
+Server -> local
+packets 1ko - 2ko 
+200ko - > mini packets 1ko 
+
+local address IP: 192.168.1.5
+public @ IP: 212.103.50.134
+@ data : 
+
+
+
+
+
+------------------------------------
+front end -> visual of the web site
+back end -> procces the data in 
