@@ -14,9 +14,6 @@ public @ IP: 212.103.50.134
 @ data : 
 
 
-
-
-
 ------------------------------------
 front end -> visual of the web site
 back end -> procces the data in 
