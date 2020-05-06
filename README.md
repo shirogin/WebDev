@@ -31,3 +31,11 @@
         -   unordered list
 
 ## Session 2
+
+### HTML
+- nested Elements
+- Exercice 1
+- Tabels Tag
+- Exercice 2
+- Forms
+- Forms Exercice (Exercice 3)
