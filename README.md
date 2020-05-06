@@ -3,14 +3,12 @@
 
 ### Internet Basics
 ---------------
-
 1.  HTTP Requests
 2.  IP Address
 3.  Servers
 
 ### HTML
 ----
-
 -   Stands for Hyper Text Markup Language
 -   lots of tags
     -   Biolerplate(structure)
