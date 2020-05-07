@@ -2,16 +2,80 @@
 <html lang="en">
 <head>
     <title>Document</title>
+    <style>
+        /* 
+            selectors: tags < class< id 
+            you have to be more specifec
+        */
+        li {
+            color: red;
+        }
+        h1{
+            font-size: 100px;
+        }
+        div{
+            color: purple;
+        }
+        div div{
+            color: blue;
+        }
+        div div p{
+            color:brown;
+        }
+        div,ul{
+            background-color: yellow;
+        }
+        .red{
+            color:red;
+        }
+        .orange{
+            font-size: 10px;
+        }
+        #Green{
+            background-color: green;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to the first Session of Css</h1>
-    <h2>We gonna try to color this title</h2>
-    <p>And we goona give this paragraph a background color too, probably the color you love the most</p>
+    <div class="orange">
+        <h1 class="orange">main Title</h1>
+        <h2>second title</h2>
+        <p>random paragraph</p>
+        <div>
+            <h3>third title</h3>
+            <p>random paragraph</p>
+        </div>
+    </div>
+
+    <h1 class="red">Welcome to the first Session of Css</h1>
+    <h2 style="color: blueviolet;">We gonna try to color this title</h2>
+    <p style="background-color: black; color:white;" >And we goona give this paragraph a background color too, probably the color you love the most</p>
     <ul>
-        <li>this list element will be colored using color name</li>
-        <li>this list element will be colored using Hexadecimal code</li>
-        <li>this list element will be colored using rgb color palet</li>
+        <li >this list element will be colored using color name</li>
+        <!-- hexdecimal: 0-9 + a-f -->
+        <li id="Green">this list element will be colored using Hexadecimal code</li>
+        <!-- lights color red + green + blue-->
+        <li style="color: rgb(120,12,60);">this list element will be colored using rgb color palet</li>
+        <li>dfvrefgedg</li>
+        <li>dfvrefgedg</li>
+        <li>dfvrefgedg</li>
+        <li>dfvrefgedg</li>
+
     </ul>
+    <h1>Another title</h1>
+    <div class="red">
+        <h3>small title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lectus enim, in laoreet dui finibus id. Suspendisse luctus ipsum risus, vitae pellentesque purus consectetur nec. Duis venenatis neque ut metus porta sollicitudin. Etiam quis purus sodales, interdum arcu ac, cursus turpis. Proin id rhoncus sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam eu finibus lectus. Vivamus a dolor ornare, volutpat quam quis, pellentesque lorem. Vestibulum placerat quis sem in congue. Nullam accumsan consequat est eget euismod.
+            Praesent ut <div>est ut mauris congue</div> consectetur. Fusce ullamcorper egestas nisi, ut malesuada quam dapibus ac. Aenean vel nisi eu velit auctor ultricies. Nunc vitae nibh non tortor convallis aliquet sed id mauris. Mauris semper vel erat nec eleifend. Donec lacinia purus nibh, vitae euismod sapien pellentesque quis. Aenean ullamcorper, magna id fringilla auctor, est purus condimentum metus, vitae finibus ex urna id tortor. Praesent efficitur lobortis nunc, id viverra odio luctus ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus congue in nibh sit amet posuere.
+            Duis a hendrerit ex. Curabitur odio quam, aliquet et interdum gravida, iaculis non turpis. Etiam convallis condimentum mi, sed sagittis dolor. Sed auctor, purus vitae rutrum aliquam, mauris urna varius elit, eu euismod massa risus eget tortor. Maecenas porttitor et tortor non ultrices. Pellentesque lobortis, libero non sagittis lobortis, quam libero tincidunt ligula, et fringilla orci ligula ac arcu. Aliquam congue mollis mauris, nec dignissim ante mollis et. Suspendisse maximus porttitor orci, a accumsan diam volutpat at. Vivamus molestie mi quis nulla rutrum semper. Phasellus euismod ipsum pharetra, lobortis leo et, malesuada ante. Sed eu viverra nisl.
+            Ut interdum ligula quis ex convallis, eget ornare enim ultrices. Fusce et augue lectus. Nam venenatis urna vel mauris dictum tempus. Nam iaculis mi sodales urna lacinia, quis finibus ante suscipit. Donec eget elementum libero. Duis sit amet mauris nec odio vestibulum eleifend. Quisque id vestibulum purus. Duis finibus maximus ante in consectetur. Vivamus a commodo enim. Ut congue, mauris in volutpat pharetra, purus dui dictum arcu, et pretium orci odio semper purus. Integer quis libero vel magna ultrices rhoncus et malesuada nulla. Integer pulvinar nulla nec nibh tincidunt, eu congue tellus suscipit. Integer mollis id massa vel semper. Curabitur sit amet quam at nunc eleifend cursus sit amet eget nisl. Duis sed sagittis nibh. Proin finibus ante libero, eu laoreet nunc molestie eu.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam scelerisque dui eu turpis hendrerit, nec vehicula nibh tempor. Phasellus et quam eu eros tempor elementum sit amet non erat. Sed ultrices erat eu nisl pretium, quis tincidunt eros feugiat. Fusce in finibus quam. Phasellus lacinia faucibus quam quis dictum. Aliquam enim mi, euismod tempus tempus sed, eleifend sit amet diam. Quisque condimentum neque eget suscipit aliquam. Pellentesque nec mattis diam, a porta sapien. Sed a viverra nulla, vitae elementum lacus. Nulla molestie volutpat mi non sagittis. Maecenas at semper enim.
+        </p>
+    </div>
     
+
+
+    
+
 </body>
 </html>

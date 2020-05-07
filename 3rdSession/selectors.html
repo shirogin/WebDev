@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        body{
+            background-color: blueviolet;
+        }
+        img{
+            width:49%;
+            height: 200px;
+        }
+        .turtle{
+            border: 1px solid green;
+        }
+        .whale{
+            height: 300px;
+        }
+        #killerWhale{
+            border: 3px dashed blue;
+        }
+        .whale+.turtle{
+            border-radius: 10px;
+        }
+        .turtle:nth-child(3){
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>whale</h1>
+        <img class="whale" id="killerWhale" src="https://cdn.britannica.com/37/75637-050-B425E8F1/Killer-whale.jpg" alt="">
+        <img class="whale" src="https://natgeo.imgix.net/factsheets/thumbnails/UnderstandingTheBlueWhale_whale.jpg?auto=compress,format&w=1600&h=900&fit=crop" alt="">
+    </div>
+
+    <img class="turtle" src="https://cdn.britannica.com/s:800x450,c:crop/66/195966-138-F9E7A828/facts-turtles.jpg">    
+    <img class="turtle" src="https://inhabitat.com/wp-content/blogs.dir/1/files/2013/08/sea-turtle.jpg" alt="">
+    <img class="turtle" src="https://www.nwf.org/-/media/NEW-WEBSITE/Shared-Folder/Wildlife/Reptiles/reptile_green-sea-turtle_600x300.ashx" alt="">
+</body>
+</html>
