@@ -1,17 +1,41 @@
 /* 'Comic Sans MS', cursive, sans-serif */
 
 /* tag */
+li{
+    color:white;
+}
+body{
+    background: #403B4A;  /* fallback for old browsers */
 
+}
+h1{
+    color:rgb(164, 173, 36);
+}
 /* class */
+.completed{
+    color:black;
+    text-decoration-line: line-through;
+}
 
 /* id */
-
+#special{
+    background-color: chartreuse;   
+}
 /* star */
-
-/* nested selector */
+*{
+    border:0.5px solid black;
+}
 
 /* adjacent selector */
-
+.completed + li{
+    color: chocolate;
+}
 /* nth of type selector */
+li:nth-child(7){
+    color:yellow;
+}
 
-/* attribute selector */
+
+
+
+
