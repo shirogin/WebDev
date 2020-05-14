@@ -29,8 +29,7 @@ Part 7 : Loops
     for(var i=0; i<LoopsNumber ; i++){
         console.log("loop number "+i);
         // more code if you want
-    }
-> exercice 
+    } 
 
 Part 8 : Arrays (lists)
 #### How to Create and array?
