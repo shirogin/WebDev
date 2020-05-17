@@ -51,8 +51,31 @@ function MaxPosition2(list){
     }
     return [max,pos];
 }
-console.log(max(list));
+//console.log(max(list));
 //Home Work
 // 1- printReverse(list);==> printReverse([0,48,44,95])=> 95 44 48 0
 // 2- SumArray(list);==> SumArray([0,48,44,95])=> 187
 // 3- isUniform(list); ==> isUniform([0,48,44,95])=> false / isUniform([0,0,0,0]) => true
+function printReverse(arr){
+    for (var i = arr.length-1; i >= 0; i--) {console.log(arr[i]);}
+}
+//printReverse(list);
+function SumArray(arr){
+    var Sum=0;
+    for (let i = 0; i < arr.length; i++) {
+        Sum += arr[i];        
+    }
+    return Sum;
+}
+//console.log(SumArray(list));
+function isUniform(arr){
+    for (let i = 0; i < arr.length; i++) {
+        if(arr[i]!==arr[0]){
+            console.log("this list isn't uniform");
+            return false;
+        } 
+    }
+    console.log("this list is uniform");
+    return true;
+}
+console.log(isUniform(list));
