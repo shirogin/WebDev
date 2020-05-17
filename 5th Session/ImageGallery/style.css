@@ -1,3 +1,12 @@
+body{background: url(./snow_02_diff_1k.png);
+    background-size: cover;
+    background-color: rgba(0, 128, 128,.5);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: color-burn;
+    text-shadow: rgba(47, 46, 46, 0.5);
+    color: white;
+}
 #WhaleCarousel{
     background-image: url(./Whale.jpg);
     
